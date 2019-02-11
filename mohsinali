@@ -1,0 +1,21 @@
+
+showMyName()
+{
+	printf("Daanyaal Nasir\n");
+}
+sum(int firstNumber,int secondNumber)
+{
+	int result=firstNumber+secondNumber;
+	printf("%d",result);
+}
+int add(int num1,int num2)
+{
+	int result=num1+num2;
+	return result;
+}
+main()
+{
+	showMyName();
+	int a=add(40,50);
+	printf("%d",a);
+}

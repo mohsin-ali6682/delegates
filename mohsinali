@@ -16,6 +16,6 @@ int add(int num1,int num2)
 main()
 {
 	showMyName();
-	int a=add(40,50);
+	int a=add(60,70);
 	printf("%d",a);
 }
